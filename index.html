@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Click Logger</title>
+    <title>Demographic Street Research</title>
 </head>
 <body>
-    <h1>Button Click Logger</h1>
-    <button onclick="recordClick('Button 1')">Button 1</button>
-    <button onclick="recordClick('Button 2')">Button 2</button>
-    <button onclick="recordClick('Button 3')">Button 3</button>
+    <h1>Demographic street research</h1>
+    <button onclick="recordClick('White Person')">White Person</button>
+    <button onclick="recordClick('Black Person')">Black Person</button>
+    <button onclick="recordClick('Asian Person')">Asian Person</button>
+    <button onclick="recordClick('Other race Person')">Other race person</button>
+    <button onclick="recordClick('White Person')">Bus White Person</button>
+    <button onclick="recordClick('Black Person')">Bus Black Person</button>
+    <button onclick="recordClick('Asian Person')">Bus Asian Person</button>
+    <button onclick="recordClick('Other race Person')">Bus Other race person</button>
+
+
     <br><br>
-    <button onclick="downloadCSV()">Download CSV</button>
+    <button onclick="downloadCSV()">Download CSV, please clear browser after each trip</button>
 
     <script>
         let clicks = [];
