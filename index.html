@@ -11,6 +11,7 @@
     <button onclick="recordClick('Black Person')">Black Person</button>
     <button onclick="recordClick('Asian Person')">Asian Person</button>
     <button onclick="recordClick('Other race Person')">Other race person</button>
+    <br><br>
     <button onclick="recordClick('White Person')">Bus White Person</button>
     <button onclick="recordClick('Black Person')">Bus Black Person</button>
     <button onclick="recordClick('Asian Person')">Bus Asian Person</button>
@@ -26,7 +27,8 @@
         function recordClick(buttonName) {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition((position) => {
-                    const timeStamp = new Date().toLocaleString();
+                    const now = new Date();
+                    const timeStamp = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
                     const latitude = position.coords.latitude;
                     const longitude = position.coords.longitude;
                     clicks.push({
@@ -46,7 +48,7 @@
 
         function downloadCSV() {
             const now = new Date();
-            const fileName = `${now.toLocaleDateString()}_${now.toLocaleTimeString().replace(/:/g, '-')}.csv`;
+            const fileName = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}-${String(now.getMinutes()).padStart(2, '0')}-${String(now.getSeconds()).padStart(2, '0')}.csv`;
             let csvContent = "data:text/csv;charset=utf-8,Time,Latitude,Longitude,Button\n";
             clicks.forEach(click => {
                 csvContent += `${click.time},${click.latitude},${click.longitude},${click.button}\n`;
