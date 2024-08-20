@@ -32,6 +32,22 @@
             text-align: center;
         }
 
+        .sub-group {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .sub-group h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+        }
+
         .button-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -107,64 +123,92 @@
     <!-- Group: Young -->
     <div class="group">
         <h2>Young</h2>
-        <div class="button-grid">
-            <button onclick="recordClick('Young White general')">Young White general</button>
-            <button onclick="recordClick('Young Black general')">Young Black general</button>
-            <button onclick="recordClick('Young Asian general')">Young Asian general</button>
-            <button onclick="recordClick('Young Other general')">Young Other general</button>
-
-            <button onclick="recordClick('Young White Transit')">Young White Transit</button>
-            <button onclick="recordClick('Young Black Transit')">Young Black Transit</button>
-            <button onclick="recordClick('Young Asian Transit')">Young Asian Transit</button>
-            <button onclick="recordClick('Young Other Transit')">Young Other Transit</button>
+        <div class="sub-group">
+            <h3>General</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Young White general')">Young White general</button>
+                <button onclick="recordClick('Young Black general')">Young Black general</button>
+                <button onclick="recordClick('Young Asian general')">Young Asian general</button>
+                <button onclick="recordClick('Young Other general')">Young Other general</button>
+            </div>
+        </div>
+        <div class="sub-group">
+            <h3>Transit</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Young White Transit')">Young White Transit</button>
+                <button onclick="recordClick('Young Black Transit')">Young Black Transit</button>
+                <button onclick="recordClick('Young Asian Transit')">Young Asian Transit</button>
+                <button onclick="recordClick('Young Other Transit')">Young Other Transit</button>
+            </div>
         </div>
     </div>
 
     <!-- Group: Adult -->
     <div class="group">
         <h2>Adult</h2>
-        <div class="button-grid">
-            <button onclick="recordClick('Adult White general')">Adult White general</button>
-            <button onclick="recordClick('Adult Black general')">Adult Black general</button>
-            <button onclick="recordClick('Adult Asian general')">Adult Asian general</button>
-            <button onclick="recordClick('Adult Other general')">Adult Other general</button>
-
-            <button onclick="recordClick('Adult White Transit')">Adult White Transit</button>
-            <button onclick="recordClick('Adult Black Transit')">Adult Black Transit</button>
-            <button onclick="recordClick('Adult Asian Transit')">Adult Asian Transit</button>
-            <button onclick="recordClick('Adult Other Transit')">Adult Other Transit</button>
+        <div class="sub-group">
+            <h3>General</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Adult White general')">Adult White general</button>
+                <button onclick="recordClick('Adult Black general')">Adult Black general</button>
+                <button onclick="recordClick('Adult Asian general')">Adult Asian general</button>
+                <button onclick="recordClick('Adult Other general')">Adult Other general</button>
+            </div>
+        </div>
+        <div class="sub-group">
+            <h3>Transit</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Adult White Transit')">Adult White Transit</button>
+                <button onclick="recordClick('Adult Black Transit')">Adult Black Transit</button>
+                <button onclick="recordClick('Adult Asian Transit')">Adult Asian Transit</button>
+                <button onclick="recordClick('Adult Other Transit')">Adult Other Transit</button>
+            </div>
         </div>
     </div>
 
     <!-- Group: Senior -->
     <div class="group">
         <h2>Senior</h2>
-        <div class="button-grid">
-            <button onclick="recordClick('Senior White general')">Senior White general</button>
-            <button onclick="recordClick('Senior Black general')">Senior Black general</button>
-            <button onclick="recordClick('Senior Asian general')">Senior Asian general</button>
-            <button onclick="recordClick('Senior Other general')">Senior Other general</button>
-
-            <button onclick="recordClick('Senior White Transit')">Senior White Transit</button>
-            <button onclick="recordClick('Senior Black Transit')">Senior Black Transit</button>
-            <button onclick="recordClick('Senior Asian Transit')">Senior Asian Transit</button>
-            <button onclick="recordClick('Senior Other Transit')">Senior Other Transit</button>
+        <div class="sub-group">
+            <h3>General</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Senior White general')">Senior White general</button>
+                <button onclick="recordClick('Senior Black general')">Senior Black general</button>
+                <button onclick="recordClick('Senior Asian general')">Senior Asian general</button>
+                <button onclick="recordClick('Senior Other general')">Senior Other general</button>
+            </div>
+        </div>
+        <div class="sub-group">
+            <h3>Transit</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Senior White Transit')">Senior White Transit</button>
+                <button onclick="recordClick('Senior Black Transit')">Senior Black Transit</button>
+                <button onclick="recordClick('Senior Asian Transit')">Senior Asian Transit</button>
+                <button onclick="recordClick('Senior Other Transit')">Senior Other Transit</button>
+            </div>
         </div>
     </div>
 
     <!-- Group: Disabled -->
     <div class="group">
         <h2>Disabled</h2>
-        <div class="button-grid">
-            <button onclick="recordClick('Disabled White general')">Disabled White general</button>
-            <button onclick="recordClick('Disabled Black general')">Disabled Black general</button>
-            <button onclick="recordClick('Disabled Asian general')">Disabled Asian general</button>
-            <button onclick="recordClick('Disabled Other general')">Disabled Other general</button>
-
-            <button onclick="recordClick('Disabled White Transit')">Disabled White Transit</button>
-            <button onclick="recordClick('Disabled Black Transit')">Disabled Black Transit</button>
-            <button onclick="recordClick('Disabled Asian Transit')">Disabled Asian Transit</button>
-            <button onclick="recordClick('Disabled Other Transit')">Disabled Other Transit</button>
+        <div class="sub-group">
+            <h3>General</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Disabled White general')">Disabled White general</button>
+                <button onclick="recordClick('Disabled Black general')">Disabled Black general</button>
+                <button onclick="recordClick('Disabled Asian general')">Disabled Asian general</button>
+                <button onclick="recordClick('Disabled Other general')">Disabled Other general</button>
+            </div>
+        </div>
+        <div class="sub-group">
+            <h3>Transit</h3>
+            <div class="button-grid">
+                <button onclick="recordClick('Disabled White Transit')">Disabled White Transit</button>
+                <button onclick="recordClick('Disabled Black Transit')">Disabled Black Transit</button>
+                <button onclick="recordClick('Disabled Asian Transit')">Disabled Asian Transit</button>
+                <button onclick="recordClick('Disabled Other Transit')">Disabled Other Transit</button>
+            </div>
         </div>
     </div>
 
