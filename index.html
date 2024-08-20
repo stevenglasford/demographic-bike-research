@@ -58,11 +58,48 @@
             padding: 10px;
             font-size: 16px;
             border: none;
-            background-color: #4CAF50;
-            color: white;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        /* Specific styles for each demographic */
+        button.white {
+            background-color: white;
+            color: black;
+            border: 1px solid #ccc; /* Add a border for better visibility */
+        }
+
+        button.white:hover {
+            background-color: #f2f2f2;
+        }
+
+        button.black {
+            background-color: black;
+            color: white;
+        }
+
+        button.black:hover {
+            background-color: #333;
+        }
+
+        button.asian {
+            background-color: yellow;
+            color: black;
+        }
+
+        button.asian:hover {
+            background-color: #ffeb3b;
+        }
+
+        button.other {
+            background-color: red;
+            color: white;
+        }
+
+        button.other:hover {
+            background-color: #d32f2f;
         }
 
         button:hover {
