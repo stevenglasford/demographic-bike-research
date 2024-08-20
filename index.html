@@ -193,6 +193,9 @@
                         });
 
                         console.log(`Comment added at ${timeStamp} with coordinates (${latitude}, ${longitude})`);
+
+                        // Clear the comment box after submission
+                        document.getElementById('comment').value = '';
                     }, (error) => {
                         alert("Unable to retrieve your location");
                     });
@@ -201,6 +204,7 @@
                 }
             }
         }
+
 
         function downloadCSV() {
             const now = new Date();
