@@ -146,7 +146,15 @@
         let clicks = [];
         let comments = [];
 
+        function flashBackground() {
+            document.body.style.backgroundColor = 'green';
+            setTimeout(() => {
+                document.body.style.backgroundColor = '';  // Reverts to original background color
+            }, 200);  // Duration of the flash in milliseconds
+        }
+
         function recordClick(buttonName) {
+            flashBackground();  // Flash the background when a button is clicked
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition((position) => {
                     const now = new Date();
@@ -176,6 +184,7 @@
         }
 
         function addComment() {
+            flashBackground();  // Flash the background when a comment is added
             const commentText = document.getElementById('comment').value.trim();
             if (commentText) {
                 if (navigator.geolocation) {
