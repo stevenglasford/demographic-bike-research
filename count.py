@@ -27,6 +27,12 @@ general_count = df['info 3'].str.contains('general', case=False, na=False).sum()
 transit_count = df['info 3'].str.contains('transit', case=False, na=False).sum()
 bike_count = df['info 3'].str.contains('bike', case=False, na=False).sum()
 
+# Count the number of rows where "info 2" is not null and does not contain "white"
+not_white_count = df[(df['info 2'].notna()) & (~df['info 2'].str.contains('white', case=False, na=False))].shape[0]
+
+
+
+
 # Display the results
 print(f'Number of stray cars: {empty_info_2_and_3}')
 print(f'Number of persons: {filled_info_2_and_3}')
@@ -38,6 +44,8 @@ print(f'Number of white persons: {white_count}')
 print(f'Number of black persons: {black_count}')
 print(f'Number of asian persons {asian_count}')
 print(f'Number of other race persons: {other_count}')
+print(f'Number of non-white presenting persons: {not_white_count}')
 print(f'Number of people walking: {general_count}')
 print(f'Number of persons waiting for bus or train {transit_count}')
 print(f'Number of bikes: {bike_count}')
+

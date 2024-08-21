@@ -40,6 +40,7 @@ Number of white persons: 1884
 Number of black persons: 927
 Number of asian persons 62
 Number of other race persons: 711
+Number of non-white presenting persons: 1700
 Number of people walking: 2682
 Number of persons waiting for bus or train 624
 Number of bikes: 278
