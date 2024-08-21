@@ -29,10 +29,10 @@ bike_count = df['info 3'].str.contains('bike', case=False, na=False).sum()
 
 # Display the results
 print(f'Number of stray cars: {empty_info_2_and_3}')
-print(f'Number of people: {filled_info_2_and_3}')
+print(f'Number of persons: {filled_info_2_and_3}')
 print(f'Number of adults: {adult_count}')
 print(f'Number of children: {youth_count}')
-print(f'Number of senios: {senior_count}')
+print(f'Number of seniors: {senior_count}')
 print(f'Number of disabled persons: {disabled_count}')
 print(f'Number of white persons: {white_count}')
 print(f'Number of black persons: {black_count}')
