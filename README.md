@@ -24,7 +24,7 @@ Nicollet Mall recently underwent a $50 million renovation, transforming it into 
 
 ### Date and Methodology
 
-The study was conducted originally going to be conducted on August 21, 2024, from 6:00 AM to 7:00 PM, but was cut short due to more data being generated than initially expected. I still rode my e-bike up and down Nicollet Mall, counting people and other relevant metrics.
+The study was conducted originally going to be conducted on August 21, 2024, from 6:00 AM to 7:00 PM, but was cut short due to more data being generated than initially expected. I still rode my e-bike up and down Nicollet Mall, counting people and other relevant metrics.  The metric I used for counting people was rather simple, the person had to be on the right of way of Nicollet Mall, and I would follow a bus (this was so I could get an accurate measurement of buses getting stuck in traffic lights). Once the bus in front of me passed a person or a person passed the bus on a bicycle, I would count that person.
 
 ### Key Findings
 
