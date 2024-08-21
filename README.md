@@ -44,6 +44,7 @@ Number of non-white presenting persons: 1700
 Number of people walking: 2682
 Number of persons waiting for bus or train 624
 Number of bikes: 278
+Number of white persons using transit: 163
 
 As of the 2020 census the City of Minneapolis had the following demographics:
 Total population: 429954
@@ -52,9 +53,10 @@ Total number of children: 34808
 Total number of seniors: 21180
 4.2% of the population has ambulatory disabilty
 
-
-This means that the population of Minneapolis 59.47% white, or 40.53% is non-white presenting
+According to the census the population of Minneapolis 59.47% white, or 40.53% is non-white presenting
 
 According to the small census that I compiled of Nicollet mall, 52.57% of the population is white, or 47.43% is non-white presenting
 
 This supports my hypthosis that the population that uses Nicollet mall skews towards the non-white population. Therefore closing nicollet mall would have a disproportionate affect on people of color. 
+Furthermore, in this research it was found that only 26.12% of the people using the transit were white, meaning that 73.88% of the people using the transit on nicollet mall are non-white presenting.
+This high number of non-white people using transit indicates that the buses and trains are bringing a higher amount of integration into Nicollet mall. Furthermore, the higher number of non-white people using transit indicates that removing the transit options from Nicollet Mall should be considered to be a racist and systematic effort to exclude non-white people from using the downtown cooridor of Minneapolis.
