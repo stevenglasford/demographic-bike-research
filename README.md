@@ -12,3 +12,5 @@ Then there is the cross traffic for nicollet mall which are giant highway width 
 Recent traffic studies show that the all of the streets that cross nicollet mall are below 10000people/day, but yet are built for 45000 people/hr. This suggests that nicollet mall should and remains to be a vital pedestrian cooridor, but the idea of making this cooridor only for pedestrains foolish. Better ideas for Nicollet mall include literally closing most of the cross streets, or converting all of the cross streets into 2 ways with stop signs at every intersection. This would provably result in higher and safer foot traffic being funneled into nicollet mall. 
 
 Depending on the outcome of this study the removal of the buses may be a racist action that largely targets minorities, seniors, disabled people. The discussion of removing the buses from nicollet mall should be carefully analyzed and I don't see anyone else doing the work, so I shall do it.
+
+This study will be performed on August 21st between 6am and 7pm all day long I am going to ride my bike up and down Nicollet Mall with my ebike.
