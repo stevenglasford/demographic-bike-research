@@ -30,16 +30,16 @@ Overwhelmingly I was suprised by the amount of people that I saw on this coorido
 The methodology I used was simple, I pass by them, If they were about 15 feet from me and using the street, I counted them. I typcially just followed the buses and did not pass the buses, since doing so I would usually miss people getting off the bus/transfering buses/waiting of buses.
 
 Between 7am and 10am on August 21, 2024 on a clear nice day this is the count that I found
-Number of stray cars: 20 
-Number of people: 3584
+Number of stray cars: 20
+Number of persons: 3584
 Number of adults: 3274
 Number of children: 151
 Number of seniors: 104
-Number of disabled people: 55
-Number of white people: 1884
-Number of black people: 927
-Number of asian people: 62
-Number of other race people: 711
+Number of disabled persons: 55
+Number of white persons: 1884
+Number of black persons: 927
+Number of asian persons 62
+Number of other race persons: 711
 Number of people walking: 2682
-Number of people waiting at bus/train stops: 624
+Number of persons waiting for bus or train 624
 Number of bikes: 278
