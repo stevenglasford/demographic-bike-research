@@ -14,3 +14,18 @@ Recent traffic studies show that the all of the streets that cross nicollet mall
 Depending on the outcome of this study the removal of the buses may be a racist action that largely targets minorities, seniors, disabled people. The discussion of removing the buses from nicollet mall should be carefully analyzed and I don't see anyone else doing the work, so I shall do it.
 
 This study will be performed on August 21st between 6am and 7pm all day long I am going to ride my bike up and down Nicollet Mall with my ebike.
+
+-----------------------------------------------------------------------------------------------
+# Analysis
+From about 7AM to about 10PM I recorded about 3000 people. I noticed that it was actually much more busy on the mall than I initially expected.
+The counting was rather difficult and I missed a significant number of people from bus stops and the light rail station. Typically the people from both modes of transport bolted away before I could count them accurately. I tried my hardest, but when the train drops off about 150 people at one time, its pretty difficult to count them accurately. This also happened often with the D line as the bus was usually full. 
+
+Overall though the data is rather accurate however, but it might undercount the number of transit users, since it was difficult to count all commuters from bus and train dumps. Furthermore, it was difficult counting the number of elderly people, since I often couldn't tell people's age very quickly. For the most part if someone had white hair and walking slower I would count them as senior. All children under the approximate age of 15 are counted as Youth.
+Bikes were very easy to count. People with obvious mobility problems (such as wheelchair use) were counted towards "disabled" category. 
+
+There were a few people milling about, these people were counted multiple times, but can likely be filtered out with further research. For the most part though, people were on the move. Very few people waiting and milling about for leisure. I believe this is also true since the mall has very few places to sit and relax (this is a topic for further discussion for later).
+
+Overwhelmingly I was suprised by the amount of people that I saw on this cooridor, this small slice of time does not account for people riding on buses or trains through the street. 
+
+The methodology I used was simple, I pass by them, If they were about 15 feet from me and using the street, I counted them. I typcially just followed the buses and did not pass the buses, since doing so I would usually miss people getting off the bus/transfering buses/waiting of buses.
+
