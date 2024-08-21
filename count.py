@@ -30,6 +30,18 @@ bike_count = df['info 3'].str.contains('bike', case=False, na=False).sum()
 # Count the number of rows where "info 2" is not null and does not contain "white"
 not_white_count = df[(df['info 2'].notna()) & (~df['info 2'].str.contains('white', case=False, na=False))].shape[0]
 
+# Check for "white" in any column
+white_mask = df.apply(lambda row: row.astype(str).str.contains('white', case=False).any(), axis=1)
+
+# Check for "transit" in any column
+transit_mask = df.apply(lambda row: row.astype(str).str.contains('transit', case=False).any(), axis=1)
+
+# Combine masks to find rows where both "white" and "transit" are True
+combined_mask = white_mask & transit_mask
+
+# Count the number of rows that meet the criteria
+white_and_transit = combined_mask.sum()
+
 
 
 
@@ -48,4 +60,5 @@ print(f'Number of non-white presenting persons: {not_white_count}')
 print(f'Number of people walking: {general_count}')
 print(f'Number of persons waiting for bus or train {transit_count}')
 print(f'Number of bikes: {bike_count}')
+print(f"Number of white persons using transit: {white_and_transit}")
 
