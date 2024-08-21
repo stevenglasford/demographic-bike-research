@@ -61,7 +61,7 @@ __Nicollet Mall Findings__: According to my data, the population on Nicollet Mal
 
 ## Analysis of Transit and Economic Impact
 
-* __Transit Delays__: The average bus on Nicollet Mall encounters a 58.57% chance of stopping at a light, leading to delays between 0 to 7.5 minutes. With an average of 17 people per bus, these delays contribute to significant lost economic output, particularly impacting non-white populations who represent 73.88% of transit users on Nicollet Mall.
+* **Transit Delays**: The average bus on Nicollet Mall encounters a 58.57% chance of stopping at a light, leading to delays between 0 to 7.5 minutes. With an average of 17 people per bus (according to the metropolian council [https://metrocouncil.org/News-Events/Transportation/Newsletters/Annual-transit-ridership-2023.aspx](https://metrocouncil.org/News-Events/Transportation/Newsletters/Annual-transit-ridership-2023.aspx) There were 136,893 average weekday riders in 2023), these delays contribute to significant lost economic output, particularly impacting non-white populations who represent 73.88% of transit users on Nicollet Mall.
 
 ## Conclusion
 
