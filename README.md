@@ -32,8 +32,8 @@ The methodology I used was simple, I pass by them, If they were about 15 feet fr
 Between 7am and 10am on August 21, 2024 on a clear nice day this is the count that I found
 Number of stray cars: 20 
 Number of people: 3584
-Number of adults : 3274
-Number of children young: 151
+Number of adults: 3274
+Number of children: 151
 Number of seniors: 104
 Number of disabled people: 55
 Number of white people: 1884
