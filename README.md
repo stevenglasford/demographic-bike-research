@@ -10,13 +10,13 @@ The goal of this project is to present an accurate narrative of Nicollet Mall an
 
 ## Context and Concerns
 
-Nicollet Mall recently underwent a $50 million renovation, transforming it into its current state. However, despite this investment, several issues remain that make the street less pleasant than intended:
+Nicollet Mall underwent a $50 million renovation in 2017 causing a two year shutdown, transforming it into its current state. However, despite this investment, several issues remain that make the street less pleasant than intended:
 
 * __Bus Operations__: Although Nicollet Mall is a designated bus corridor, the buses are required to move slowly, often hindered by stoplights that cause significant delays. The buses are capped at 10 mph, but due to frequent stops at every block for 12 blocks, with each stoplight causing a 30-45 second delay, buses often run 6 minutes late on average.
 
 * __Traffic Issues__: There is a need for increased signage to indicate that Nicollet Mall is restricted to buses, bikes, and pedestrians. Currently, some vehicles still use the street, though the design intentionally slows them down.
 
-* __Cross Traffic__: The streets crossing Nicollet Mall are oversized, designed for a capacity that far exceeds current usage. Recent traffic studies show that all crossing streets are below 10,000 people/day but were built for 45,000 people/hour. This suggests that Nicollet Mall should remain a vital pedestrian corridor, but closing it to all non-pedestrian traffic might be misguided.
+* __Cross Traffic__: The streets crossing Nicollet Mall are oversized, designed for a capacity that far exceeds current usage. Recent traffic studies show that all crossing streets are below 10,000 people/day but were built for 45,000 people/hour (this study can be found from the MNDOT https://mndot.maps.arcgis.com/apps/webappviewer/index.html?id=7b3be07daed84e7fa170a91059ce63bb ). This suggests that Nicollet Mall should remain a vital pedestrian corridor, but closing it to all non-pedestrian traffic might be misguided.
 
 **Proposal**: Instead of making Nicollet Mall pedestrian-only, better solutions might include closing most of the cross streets or converting them into two-way streets with stop signs at every intersection. This could enhance foot traffic safety and flow on Nicollet Mall.
 
