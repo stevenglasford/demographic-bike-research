@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Specify the directory where your CSV files are located
-csv_directory = 'path_to_your_csv_files'
+csv_directory = 'researchFiles'
 
 # List all CSV files in the directory
 csv_files = [file for file in os.listdir(csv_directory) if file.endswith('.csv')]
