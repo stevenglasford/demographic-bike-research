@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file into a pandas DataFrame
-csv_file = 'your_file.csv'  # Replace with your actual file path
+csv_file = 'combined_file.csv'  # Replace with your actual file path
 df = pd.read_csv(csv_file)
 
 # 1. Count the number of rows with nothing in info 2 and info 3
